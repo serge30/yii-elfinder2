@@ -1,7 +1,5 @@
 <?php
 
-Yii::import('ext.tinymce.TinyMceFileManager');
-
 /**
  * elFnder file manager for TinyMCE
  *

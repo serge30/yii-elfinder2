@@ -11,10 +11,10 @@
 				},
 				mySubmit: function(URL) {
 					// pass selected file path to TinyMCE
-					parent.tinymce.activeEditor.windowManager.getParams().setUrl(URL);
+					opener.tinymce.activeEditor.windowManager.params.setUrl(URL);
 
 					// close popup window
-					parent.tinymce.activeEditor.windowManager.close();
+					opener.tinymce.activeEditor.windowManager.close(window);
 				}
 			}
 

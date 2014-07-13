@@ -36,6 +36,8 @@ function (field_name, url, type, win) {
 	}, {
 		setUrl: function(url) {
 			win.document.getElementById(field_name).value = url;
+			if (type == "image" && field_name=="src" && win.ImageDialog.showPreviewImage)
+            	win.ImageDialog.showPreviewImage(url);
 		}
 	});
 	return false;

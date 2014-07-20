@@ -1,8 +1,8 @@
 {
-    "name": "rob006/yii-elfinder2",
+    "name": "serge30/yii-elfinder2",
     "description": "Extension to use elFinder 2.x file manager in yii application",
     "keywords": ["widget", "tinymce", "file manager"],
-	"homepage": "https://github.com/rob006/yii-elfinder2",
+	"homepage": "https://github.com/serge30/yii-elfinder2",
     "type": "yii-extension",
     "extra": {
         "installer-name": "elFinder2"
@@ -12,7 +12,7 @@
         {
             "name": "Robert Korulczyk",
             "email": "robert@korulczyk.pl",
-			"hompage": "http://rob006.net"
+			"homepage": "http://rob006.net"
         },
         {
             "name": "Bogdan Savluk",

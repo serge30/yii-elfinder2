@@ -80,7 +80,7 @@ $("#' . $id . 'browse").click(function(){ $(function() {
 		position: "center",
 		title: "' . $this->popupTitle . '",
 		width: 900,
-		height: 550,
+		height: 750,
 		resizable : true,
 		modal : true,
 	}).dialog( "open" );

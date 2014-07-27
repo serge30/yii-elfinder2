@@ -36,6 +36,7 @@ class ServerFileInputElFinderPopupAction extends CAction {
 		$settings = array(
 			'url' => $this->controller->createUrl($this->connectorRoute),
 			'lang' => Yii::app()->language,
+			'height' => 650,
 		);
 
 		echo $this->controller->processOutput(

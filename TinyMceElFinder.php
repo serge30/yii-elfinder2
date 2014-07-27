@@ -31,7 +31,7 @@ function (field_name, url, type, win) {
 		file: '$connectorUrl',
 		title: '{$this->popupTitle}',
 		width: 900,
-		height: 450,
+		height: 750,
 		resizable: "yes"
 	}, {
 		setUrl: function(url) {
